@@ -27,16 +27,7 @@ namespace OneListClient
         {
             get
             {
-                // if (complete)
-                // {
-                //     return "Completed";
-                // }
-                // else
-                // {
-                //     return "Not Completed";
-                // }
-
-                // Shorthand for the above =>  return   boolean expression  ?    value when true    :   value when false
+                // Shorthand for  =>  return   boolean expression  ?    value when true    :   value when false
                 return Complete ? "Completed" : "Not Completed";
             }
         }
